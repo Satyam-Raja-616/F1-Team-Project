@@ -1,0 +1,411 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+.navbar {
+  margin: 0 auto;
+  height: 80px;
+  max-width: 1200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  justify-content: space-around;
+  border-bottom: 1px solid #ffffff;
+}
+
+.navbar > a {
+  height: 40px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 4px 12px;
+}
+
+.info {
+  height: 40px;
+  width: 140px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 40px;
+  display: inline-block;
+  margin-right: auto;
+}
+
+.logo img {
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.info-content {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  padding: 4px 12px;
+}
+
+.join {
+  background-color: #e10600;
+  font-weight: bold;
+  padding: 6px 16px !important;
+}
+
+.hero-sec {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 80vh;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.85) 0%,
+      rgba(0, 0, 0, 0.55) 45%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(/f1-team/images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content > div {
+  width: 300px;
+  text-align: left;
+  position: relative;
+  top: auto;
+  left: auto;
+  padding: 0 40px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+
+.heading {
+  width: 380px !important;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: Oswald;
+  line-height: 1;
+}
+
+.visuals {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 300px !important;
+}
+
+.meet {
+  height: 40px;
+  width: 140px;
+  border: none;
+  background-color: #e10600;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.watch {
+  height: 40px;
+  width: 140px;
+  background-color: #0d0d0d;
+  border: 2px solid #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.written > div {
+  margin: 30px 0 30px 0;
+}
+
+.first-line {
+  font-size: 14px;
+  color: #e10600;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.stats {
+  margin: 0 auto;
+  background-color: #111;
+  height: 100px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.stats > div {
+  height: 60px;
+  width: 180px;
+  border-right: 1px solid #ffffff;
+  text-align: left;
+  padding: 6px 16px;
+}
+
+.secondary-sec {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 600px;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.85) 0%,
+      rgba(0, 0, 0, 0.55) 45%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(/f1-team/images/2nd-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.sec-content > div {
+  width: 360px;
+  text-align: left;
+}
+
+.sec-content {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+}
+
+.sec-visuals {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.discover {
+  height: 40px;
+  width: 200px;
+  border: none;
+  background-color: #e10600;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sec-written > div {
+  margin: 20px 0 20px 0;
+}
+
+.sec-stats {
+  background-color: #111;
+  height: 100px;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.sec-stats > div {
+  height: 60px;
+  width: 120px;
+  border-right: 1px solid #ffffff;
+  text-align: left;
+  padding: 6px 16px;
+}
+
+.footer {
+  margin: 0 auto;
+  height: 80px;
+  max-width: 1200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  justify-content: space-around;
+  border-bottom: 1px solid #ffffff;
+}
+
+.footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.copyright {
+  height: 40px;
+  width: 300px;
+}
+
+.stats-main {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.stats-sec {
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+}
+
+.sec-heading {
+  width: 660px !important;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.navbar > a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #e10600;
+  transform: translateY(-2px);
+  transition: 0.25s ease;
+}
+
+.meet,
+.discover,
+.join {
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.meet:hover,
+.discover:hover,
+.join:hover {
+  transform: translateY(-2px);
+  background-color: #ff1e16;
+}
+
+.watch:hover {
+  background-color: white;
+  color: #0d0d0d;
+  transform: translateY(-2px);
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.home {
+  color: #e10600;
+  border-bottom: 2px solid #e10600;
+}
+
+body {
+  background-color: #0d0d0d;
+  font-family: "Inter", sans-serif;
+}
+
+.heading,
+.sec-heading {
+  font-family: "Oswald", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .navbar > a {
+    width: auto;
+    padding: 4px 8px;
+  }
+
+  .heading {
+    font-size: 48px;
+  }
+
+  .sec-heading {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .navbar > a:not(.home, .join) {
+    display: none;
+  }
+
+  .hero-sec {
+    min-height: 650px;
+  }
+
+  .hero-content {
+    padding: 0 24px;
+  }
+
+  .heading {
+    width: auto !important;
+    font-size: 42px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .visuals {
+    width: 100% !important;
+    gap: 10px;
+  }
+
+  .stats {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+
+  .stats > div {
+    width: 40%;
+  }
+
+  .sec-stats {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  .sec-stats > div {
+    width: 20%;
+  }
+
+  .secondary-sec {
+    min-height: 540px;
+  }
+
+  .sec-content {
+    padding: 0 24px;
+  }
+
+  .sec-heading {
+    width: auto !important;
+    font-size: 42px;
+  }
+}
