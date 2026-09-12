@@ -75,7 +75,7 @@
       rgba(0, 0, 0, 0.55) 45%,
       rgba(0, 0, 0, 0.1) 100%
     ),
-    url(/f1-team/images/hero-img.jpg);
+    url(/images/hero-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -178,7 +178,7 @@
       rgba(0, 0, 0, 0.55) 45%,
       rgba(0, 0, 0, 0.1) 100%
     ),
-    url(/f1-team/images/2nd-image.jpg);
+    url(/images/2nd-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
